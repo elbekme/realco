@@ -6,6 +6,7 @@
 }
 html {
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 body {
     font-family: 'Roboto', sans-serif;
@@ -656,7 +657,7 @@ li {
             }
         }
     }
-    .families{
+    #families{
         width: 100%;
         height: 46.5rem;
         margin-top: 5rem;
@@ -866,7 +867,7 @@ li {
             }
         }
     }
-    .post{
+    #post{
         width: 100%;
         height: 105rem;
         background: #E7E8E3;

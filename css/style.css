@@ -7,6 +7,7 @@
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -644,12 +645,12 @@ li {
   width: 1.6rem;
   height: 2.4rem;
 }
-.container .families {
+.container #families {
   width: 100%;
   height: 46.5rem;
   margin-top: 5rem;
 }
-.container .families .families-item {
+.container #families .families-item {
   width: 130rem;
   height: 100%;
   margin: 0 auto;
@@ -658,14 +659,14 @@ li {
   text-align: center;
   padding-top: 10rem;
 }
-.container .families .families-item h1 {
+.container #families .families-item h1 {
   color: #FFFFFF;
   font-size: 4.8rem;
   font-weight: 700;
   font-family: "Roboto";
   margin-top: 3rem;
 }
-.container .families .families-item p {
+.container #families .families-item p {
   color: #E7E8E3;
   font-family: "Roboto";
   font-weight: 400;
@@ -676,7 +677,7 @@ li {
   margin-top: 3rem;
   margin-bottom: 3rem;
 }
-.container .families .families-item a button {
+.container #families .families-item a button {
   background: white;
   border: none;
   width: 13.7rem;
@@ -687,7 +688,7 @@ li {
   font-weight: 400;
   transition: all 0.3s;
 }
-.container .families .families-item a button:hover {
+.container #families .families-item a button:hover {
   background: #CF6F49;
   color: #FFFFFF;
 }
@@ -850,18 +851,18 @@ li {
   font-weight: 400;
   color: #65665C;
 }
-.container .post {
+.container #post {
   width: 100%;
   height: 105rem;
   background: #E7E8E3;
 }
-.container .post .post-item {
+.container #post .post-item {
   width: 130rem;
   height: 100%;
   margin: 0 auto;
   padding-top: 10rem;
 }
-.container .post .post-item a {
+.container #post .post-item a {
   color: #2A2C1F;
   font-weight: 400;
   font-size: 1.4rem;
@@ -870,18 +871,18 @@ li {
   padding: 0.5rem 1rem;
   border-radius: 1rem;
 }
-.container .post .post-item h1 {
+.container #post .post-item h1 {
   color: #2A2C1F;
   font-family: "Roboto";
   font-weight: 700;
   font-size: 4.8rem;
   padding-top: 5rem;
 }
-.container .post .post-item .post-p {
+.container #post .post-item .post-p {
   display: flex;
   margin-top: 3rem;
 }
-.container .post .post-item .post-p p {
+.container #post .post-item .post-p p {
   color: #65665C;
   font-size: 1.8rem;
   font-weight: 400;
@@ -889,11 +890,11 @@ li {
   padding-right: 40%;
   line-height: 2.7rem;
 }
-.container .post .post-item .post-p a {
+.container #post .post-item .post-p a {
   padding: 0;
   background: none;
 }
-.container .post .post-item .post-p a button {
+.container #post .post-item .post-p a button {
   border: none;
   background: #FFFFFF;
   color: #2A2C1F;
@@ -903,23 +904,23 @@ li {
   font-family: "Roboto";
   font-weight: 400;
 }
-.container .post .post-item .post-box {
+.container #post .post-item .post-box {
   width: 100%;
   height: 53rem;
   display: flex;
   justify-content: space-between;
   margin-top: 10rem;
 }
-.container .post .post-item .post-box .post-boxes {
+.container #post .post-item .post-box .post-boxes {
   width: 40rem;
   height: 100%;
   background: #FFFFFF;
   border-radius: 1rem;
 }
-.container .post .post-item .post-box .post-boxes img {
+.container #post .post-item .post-box .post-boxes img {
   width: 100%;
 }
-.container .post .post-item .post-box .post-boxes span {
+.container #post .post-item .post-box .post-boxes span {
   display: flex;
   align-items: center;
   padding: 0;
@@ -927,7 +928,7 @@ li {
   margin-left: 2rem;
   margin-top: 2rem;
 }
-.container .post .post-item .post-box .post-boxes span h2 {
+.container #post .post-item .post-box .post-boxes span h2 {
   color: #2A2C1F;
   font-family: "Roboto";
   font-size: 1.4rem;
@@ -936,12 +937,12 @@ li {
   padding: 1.5rem 1rem;
   border-radius: 40%;
 }
-.container .post .post-item .post-box .post-boxes span h3 {
+.container #post .post-item .post-box .post-boxes span h3 {
   color: #65665C;
   font-family: "Roboto";
   font-size: 1.4rem;
 }
-.container .post .post-item .post-box .post-boxes h1 {
+.container #post .post-item .post-box .post-boxes h1 {
   color: #2A2C1F;
   font-weight: 700;
   font-size: 2.4rem;
@@ -949,7 +950,7 @@ li {
   padding-left: 2rem;
   padding-top: 1rem;
 }
-.container .post .post-item .post-box .post-boxes p {
+.container #post .post-item .post-box .post-boxes p {
   font-family: "Roboto";
   font-size: 1.6rem;
   color: #65665C;
@@ -960,7 +961,7 @@ li {
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
-.container .post .post-item .post-box .post-boxes a {
+.container #post .post-item .post-box .post-boxes a {
   background: none;
   padding: 0;
   color: #2A2C1F;
