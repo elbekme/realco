@@ -23,7 +23,7 @@ li {
 
 .container {
   max-width: 100%;
-  background: #E7E8E3;
+  background: #FFFFFF;
 }
 .container header {
   width: 100%;
@@ -278,6 +278,7 @@ li {
   width: 100%;
   height: 50rem;
   margin-top: 8rem;
+  background: #FFFFFF;
 }
 .container #work .work-item {
   width: 130rem;
@@ -334,6 +335,7 @@ li {
   margin-top: 8rem;
   width: 100%;
   height: 75rem;
+  background: #FFFFFF;
 }
 .container #house .house-item {
   margin: 0 auto;
@@ -408,6 +410,7 @@ li {
   width: 100%;
   height: 60rem;
   margin-top: 10rem;
+  background: #FFFFFF;
 }
 .container #house-2 .house-2-item {
   width: 130rem;
@@ -518,6 +521,130 @@ li {
   padding-left: 3rem;
   padding-right: 3rem;
 }
+.container #house-3 {
+  width: 100%;
+  height: 160rem;
+  margin-top: 5rem;
+}
+.container #house-3 .house-3-item {
+  width: 130rem;
+  height: 100%;
+  margin: 0 auto;
+  border: 1px solid black;
+  padding-top: 15rem;
+  position: relative;
+}
+.container #house-3 .house-3-item .wall {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.container #house-3 .house-3-item .wall-2 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.container #house-3 .house-3-item h1 {
+  color: #2A2C1F;
+  font-size: 4.8rem;
+  font-weight: 700;
+  font-family: "Roboto";
+  text-align: center;
+  padding-bottom: 5rem;
+}
+.container #house-3 .house-3-item div {
+  text-align: center;
+  padding-bottom: 3rem;
+}
+.container #house-3 .house-3-item div a {
+  color: #2A2C1F;
+  font-size: 1.4rem;
+  font-weight: 400;
+  font-family: "Roboto";
+  padding: 0.5rem 1rem;
+  background: #d1d1cf;
+  border-radius: 1rem;
+}
+.container #house-3 .house-3-item div {
+  text-align: center;
+}
+.container #house-3 .house-3-item div span a {
+  background: none;
+}
+.container #house-3 .house-3-item div span a button {
+  background: #FFFFFF;
+  border: none;
+  border: 1px solid #E7E8E3;
+  width: 19rem;
+  height: 5rem;
+  border-radius: 5px;
+  transition: all 0.3s;
+}
+.container #house-3 .house-3-item div span a button:hover {
+  color: white;
+  background: #CF6F49;
+}
+.container #house-3 .house-3-item div span .link-con {
+  color: #2A2C1F;
+  font-weight: 400;
+  font-size: 1.6rem;
+  font-family: "Roboto";
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+.container #house-3 .house-3-item .house-3-box {
+  width: 100%;
+  height: 46rem;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+.container #house-3 .house-3-item .house-3-box .house-3-boxes {
+  width: 41rem;
+  height: 100%;
+  border: 1px solid #E7E8E3;
+  border-radius: 1.5rem;
+}
+.container #house-3 .house-3-item .house-3-box .house-3-boxes img {
+  width: 100%;
+}
+.container #house-3 .house-3-item .house-3-box .house-3-boxes h1 {
+  color: #2A2C1F;
+  font-size: 2.4rem;
+  font-weight: 700;
+  text-align: left;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+}
+.container #house-3 .house-3-item .house-3-box .house-3-boxes h2 {
+  text-align: left;
+  color: #2A2C1F;
+  font-size: 1.8rem;
+  padding-left: 1rem;
+}
+.container #house-3 .house-3-item .house-3-box .house-3-boxes p {
+  text-align: left;
+  color: #65665C;
+  font-size: 1.6rem;
+  font-weight: 400;
+  padding-top: 1.2rem;
+  padding-left: 1rem;
+}
+.container #house-3 .house-3-item .house-3-box .house-3-boxes span {
+  margin-top: 1.2rem;
+  padding-left: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  color: #65665C;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+.container #house-3 .house-3-item .house-3-box .house-3-boxes span img {
+  width: 1.6rem;
+  height: 2.4rem;
+}
 .container .families {
   width: 100%;
   height: 46.5rem;
@@ -569,6 +696,7 @@ li {
   width: 100%;
   height: 74rem;
   margin-top: 10rem;
+  background: #E7E8E3;
 }
 .container #location .location-item {
   width: 130rem;
@@ -726,6 +854,7 @@ li {
 .container .post {
   width: 100%;
   height: 105rem;
+  background: #E7E8E3;
 }
 .container .post .post-item {
   width: 130rem;
@@ -840,4 +969,124 @@ li {
   font-weight: 400;
   font-family: "Roboto";
   padding-left: 2rem;
+}
+.container #footer {
+  width: 100%;
+  height: 50rem;
+}
+.container #footer .footer-item {
+  width: 130rem;
+  margin: 0 auto;
+  height: 43rem;
+  background: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+.container #footer .footer-item .footer-1 {
+  padding-top: 5rem;
+  display: flex;
+  text-align: center;
+}
+.container #footer .footer-item .footer-1 p {
+  width: 3.5rem;
+  height: 3.5rem;
+  background: #CF6F49;
+  border-radius: 0.8rem;
+  margin-right: 1rem;
+}
+.container #footer .footer-item .footer-1 img {
+  margin-top: 1rem;
+}
+.container #footer .footer-item .footer-2 {
+  display: flex;
+  padding-top: 3rem;
+  gap: 8rem;
+}
+.container #footer .footer-item .footer-2 ul li {
+  padding-top: 2rem;
+}
+.container #footer .footer-item .footer-2 ul li p {
+  color: #2A2C1F;
+  font-weight: 400;
+  font-size: 1.6rem;
+  padding-bottom: 1rem;
+}
+.container #footer .footer-item .footer-2 ul li a {
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: #2A2C1F;
+  font-family: "Roboto";
+}
+.container #footer .footer-item .footer-3 {
+  padding-top: 5rem;
+}
+.container #footer .footer-item .footer-3 h1 {
+  font-size: 1.6rem;
+  font-weight: 400;
+  font-family: "Roboto";
+}
+.container #footer .footer-item .footer-3 p {
+  font-size: 1.6rem;
+  color: #65665C;
+  font-weight: 400;
+  font-family: "Roboto";
+  padding-top: 2rem;
+}
+.container #footer .footer-item .footer-3 a {
+  font-size: 1.2rem;
+  font-weight: 400;
+  font-family: "Roboto";
+  color: #65665C;
+}
+.container #footer .footer-item .footer-3 span input {
+  width: 24rem;
+  height: 4.8rem;
+  background: white;
+  border: 1px solid #E7E8E3;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 3rem;
+  color: #65665C;
+  padding-left: 2rem;
+  margin-right: 2rem;
+}
+.container #footer .footer-item .footer-3 span a button {
+  width: 12.7rem;
+  border: none;
+  background: #CF6F49;
+  height: 5rem;
+  color: white;
+  font-weight: 400;
+  font-size: 2rem;
+  font-family: "Roboto";
+  transition: all 0.3s;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+.container #footer .footer-item .footer-3 span a button:hover {
+  background: #FFFFFF;
+  color: black;
+  border: 1px solid #65665C;
+}
+.container #footer .footer-bottom {
+  height: 7rem;
+  width: 130rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  gap: 50rem;
+  align-items: center;
+  background: #E7E8E3;
+}
+.container #footer .footer-bottom p {
+  color: #65665C;
+  font-weight: 400;
+  font-size: 1.4rem;
+  font-family: serif;
+}
+.container #footer .footer-bottom .bottom-images {
+  display: flex;
+  gap: 1rem;
 }/*# sourceMappingURL=style.css.map */
