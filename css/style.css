@@ -649,4 +649,195 @@ li {
   font-family: "Roboto";
   padding-left: 3rem;
   padding-right: 3rem;
+}
+.container #customer {
+  width: 100%;
+  height: 83rem;
+  background: #FFFFFF;
+}
+.container #customer .customer-item {
+  width: 130rem;
+  height: 100%;
+  margin: 0 auto;
+  padding-top: 20rem;
+}
+.container #customer .customer-item h1 {
+  font-family: "Roboto";
+  font-size: 4.8rem;
+  font-weight: 700;
+  text-align: center;
+  color: #2A2C1F;
+}
+.container #customer .customer-item p {
+  font-family: "Roboto";
+  font-size: 1.8rem;
+  text-align: center;
+  color: #65665C;
+  font-weight: 400;
+  padding-top: 5rem;
+  padding-bottom: 10rem;
+}
+.container #customer .customer-item .customer-box {
+  width: 100%;
+  height: 32.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+.container #customer .customer-item .customer-box .customer-boxes {
+  height: 100%;
+  width: 40rem;
+  border: 1px solid #E7E8E3;
+  padding: 2rem;
+}
+.container #customer .customer-item .customer-box .customer-boxes p {
+  color: #2A2C1F;
+  font-family: "Roboto";
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 2.7rem;
+  text-align: left;
+  padding: 0;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.container #customer .customer-item .customer-box .customer-boxes span {
+  display: flex;
+}
+.container #customer .customer-item .customer-box .customer-boxes span img {
+  width: 4.8rem;
+  height: 4.8rem;
+}
+.container #customer .customer-item .customer-box .customer-boxes span span {
+  display: block;
+  margin-left: 1rem;
+}
+.container #customer .customer-item .customer-box .customer-boxes span span h1 {
+  color: #2A2C1F;
+  font-weight: 700;
+  font-size: 1.6rem;
+  padding: 0;
+}
+.container #customer .customer-item .customer-box .customer-boxes span span p {
+  padding: 0;
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #65665C;
+}
+.container .post {
+  width: 100%;
+  height: 105rem;
+}
+.container .post .post-item {
+  width: 130rem;
+  height: 100%;
+  margin: 0 auto;
+  padding-top: 10rem;
+}
+.container .post .post-item a {
+  color: #2A2C1F;
+  font-weight: 400;
+  font-size: 1.4rem;
+  font-family: "Roboto";
+  background: #969792;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+}
+.container .post .post-item h1 {
+  color: #2A2C1F;
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 4.8rem;
+  padding-top: 5rem;
+}
+.container .post .post-item .post-p {
+  display: flex;
+  margin-top: 3rem;
+}
+.container .post .post-item .post-p p {
+  color: #65665C;
+  font-size: 1.8rem;
+  font-weight: 400;
+  font-family: "Roboto";
+  padding-right: 40%;
+  line-height: 2.7rem;
+}
+.container .post .post-item .post-p a {
+  padding: 0;
+  background: none;
+}
+.container .post .post-item .post-p a button {
+  border: none;
+  background: #FFFFFF;
+  color: #2A2C1F;
+  width: 10rem;
+  height: 5rem;
+  border-radius: 0.5rem;
+  font-family: "Roboto";
+  font-weight: 400;
+}
+.container .post .post-item .post-box {
+  width: 100%;
+  height: 53rem;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10rem;
+}
+.container .post .post-item .post-box .post-boxes {
+  width: 40rem;
+  height: 100%;
+  background: #FFFFFF;
+  border-radius: 1rem;
+}
+.container .post .post-item .post-box .post-boxes img {
+  width: 100%;
+}
+.container .post .post-item .post-box .post-boxes span {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  gap: 1rem;
+  margin-left: 2rem;
+  margin-top: 2rem;
+}
+.container .post .post-item .post-box .post-boxes span h2 {
+  color: #2A2C1F;
+  font-family: "Roboto";
+  font-size: 1.4rem;
+  font-weight: 400;
+  background: #FAE8E1;
+  padding: 1.5rem 1rem;
+  border-radius: 40%;
+}
+.container .post .post-item .post-box .post-boxes span h3 {
+  color: #65665C;
+  font-family: "Roboto";
+  font-size: 1.4rem;
+}
+.container .post .post-item .post-box .post-boxes h1 {
+  color: #2A2C1F;
+  font-weight: 700;
+  font-size: 2.4rem;
+  font-family: "Roboto";
+  padding-left: 2rem;
+  padding-top: 1rem;
+}
+.container .post .post-item .post-box .post-boxes p {
+  font-family: "Roboto";
+  font-size: 1.6rem;
+  color: #65665C;
+  font-weight: 400;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  line-height: 2.4rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.container .post .post-item .post-box .post-boxes a {
+  background: none;
+  padding: 0;
+  color: #2A2C1F;
+  font-size: 1.6rem;
+  font-weight: 400;
+  font-family: "Roboto";
+  padding-left: 2rem;
 }/*# sourceMappingURL=style.css.map */
